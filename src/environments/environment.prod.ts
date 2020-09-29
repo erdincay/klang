@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+  menu: 'assets/menu.json',
+  data: 'assets/data.json',
 };
