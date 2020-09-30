@@ -1,14 +1,16 @@
 import { Component, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from './menu.component';
+import { HttpClientModule } from '@angular/common/http';
 
 const components: any[] = [
-  MenuComponent,
+  MenuComponent
 ];
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    HttpClientModule
   ],
   declarations: components,
   exports: components

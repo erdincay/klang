@@ -1,14 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DataComponent } from './data.component';
+import { HttpClientModule } from '@angular/common/http';
 
 const components: any[] = [
-  DataComponent,
+  DataComponent
 ];
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    HttpClientModule
   ],
   declarations: components,
   exports: components,

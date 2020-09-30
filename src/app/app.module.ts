@@ -5,8 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuModule } from './menu/menu.module';
 import { DataModule } from './data/data.module';
-import { DataComponent } from './data/data.component';
-import { MenuComponent } from './menu/menu.component';
 import { HeadModule } from './head/head.module';
 import { FeetModule } from './feet/feet.module';
 

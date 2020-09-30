@@ -1,1 +1,5 @@
-<p>data works!</p>
+<div
+  *ngFor="let d of dataItems$ | async"
+  class="navLink">
+  {{ d.name }}
+</div>
